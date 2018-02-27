@@ -35,7 +35,7 @@ Add to application config folowing rules:
             'class' => 'execut\robotsTxt\Module',
             'components'    => [
                 'generator' => [
-                    'class' => \execut\robotsTxt\Generator::class,
+                    'class' => \execut\robotsTxt\Generator::className(),
                     'host' => 'localhost',
                     'sitemap' => 'sitemap.xml',
                     //or generate link through the url rules
